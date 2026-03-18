@@ -1,94 +1,31 @@
-# Interns 2026
+# Azure Labs
 
-## Day 3 – Assessment
+This folder contains hands-on labs and notes covering the **basic features of Microsoft Azure**.  
+It is meant as a simple reference and practice guide.
 
-### Task
-Create an **Azure Storage Account** with **LRS (Locally Redundant Storage)** redundancy.  
-Then complete the following:
+## 📘 Contents
+- **Resource Groups** – organizing and managing Azure resources
+- **Virtual Machines (VMs)** – creating, connecting, and managing compute
+- **Storage Accounts** – blobs, files, and basic storage operations
+- **Networking** – VNets, subnets, NSGs, and basic connectivity
+- **Azure SQL Database** – provisioning and connecting to managed databases
+- **App Services** – deploying simple web apps
+- **Azure Functions** – serverless compute basics
+- **Monitoring** – using Azure Monitor and basic alerts
+- **Identity & Access** – Azure Active Directory and role assignments
 
-- Create a **Blob Storage** service
-- Create a **Blob container**
-- Upload a **text file** to the container
+## 🎯 Purpose
+- Provide a quick walkthrough of core Azure services
+- Serve as a starting point for deeper exploration
+- Act as a reference repo for learning and demos
 
-# Challenge – Azure Storage Account
-
-## Objective
-Create and use an **Azure Storage Account** to understand the core storage services:
-**Blob, File Share, Queue, and Table**.
-
----
-
-## Scenario
-You are working on an online learning platform that requires different types of storage for content, documents, messages, and metadata.
-
-Your task is to design and implement this using an **Azure Storage Account**.
-
----
-
-## Tasks
-
-### Task 1: Create a Storage Account
-- Create an **Azure Storage Account**
-- Configuration:
-  - Performance: **Standard**
-  - Redundancy: **LRS (Locally Redundant Storage)**
-- Note the following:
-  - Storage account name
-  - Region
-  - Replication type
+## 🚀 How to Use
+1. Navigate to each lab folder.
+2. Follow the step-by-step instructions or scripts.
+3. Experiment with the features in your own Azure subscription.
+4. Clean up resources after each lab to avoid unnecessary costs.
 
 ---
 
-### Task 2: Blob Storage
-- Create a **Blob container** named:  
-  `training-content`
-- Upload:
-  - One video or large file
-  - One PDF or text file
-- Set the container access level to **Private**
-
----
-
-### Task 3: File Share
-- Create an **Azure File Share** named:  
-  `team-docs`
-- Upload any document (txt, pdf, or docx)
-
----
-
-### Task 4: Queue Storage
-- Create a **Queue** named:  
-  `user-registration`
-- Add at least **3 messages**
-- View and delete one message
-
----
-
-### Task 5: Table Storage
-- Create a **Table** named:  
-  `students`
-- Add at least **3 entities** with the following fields:
-  - PartitionKey
-  - RowKey
-  - Name
-  - Course
-
----
-
-
-### Task 6: Blob Soft Delete & Recovery
-- Enable **Soft Delete** for Blob Storage
-- Delete one blob from the `training-content` container
-- Restore the deleted blob
-
----
-
-### Task 7: Access Control using SAS
-- Generate a **Shared Access Signature (SAS)** for one blob
-- Configure it as **read-only**
-- Verify that the file can be accessed using the SAS URL
-
-### Task 8: Blob Storage Access Tiers
-- Change the access tier of one blob from **Hot** to **Cool**
-- Observe the available access tier options
-- Note when each tier should be used (Hot vs Cool vs Archive)
+This repo is kept simple and focused on **fundamentals**.  
+Perfect for beginners or anyone revisiting the basics of Azure.
